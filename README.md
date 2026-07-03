@@ -36,7 +36,7 @@ exactly what we say it does — the same standard we hold the
 - **[cipherline.chat](https://cipherline.chat)** — the full site, including a deep-dive
   on the security model and how the encryption actually works.
 - **[cipherline-desktop](https://github.com/Cipherline-chat/cipherline-desktop)** — the
-  desktop client's repo, further along than this one.
+  desktop client's repo, same warming-up status as this one.
 - Star this repo if you'd like to know when the code lands.
 
 ---
