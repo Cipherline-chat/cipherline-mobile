@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/assets/banner.svg" alt="Cipherline — end-to-end encrypted messaging & calling" width="100%" />
+  <img src=".github/assets/banner.png" alt="Cipherline — end-to-end encrypted messaging & calling" width="100%" />
 </div>
 
 <br/>
@@ -14,30 +14,49 @@
 
 ---
 
-## This repo is warming up
+## What Cipherline is
 
-The Cipherline mobile client — iOS and Android, Apache-2.0 licensed — lands here once
-it's ready to publish. Until then, this page is a placeholder: no source code yet, just
-the plan.
+Your own servers, roles, channels, HD video, and studio voice — everything Discord
+does — except the server is mathematically incapable of reading any of it. All
+content is encrypted on your device before it ever leaves your phone; the server
+only ever sees ciphertext, account identity, and where a packet is headed.
 
-**The idea, in one line:** your own servers, roles, channels, HD video, and studio voice
-— everything Discord does — except the server is mathematically incapable of reading
-any of it. All content is encrypted on-device before it ever leaves your phone.
+## Status: closed beta, Android, and this repo is public before the source is
 
-## Why publish the client at all
+The Cipherline **mobile app** is currently in **closed beta on Android only** —
+there's no public release and no iOS build yet. This repo — Apache-2.0 licensed —
+is where its source lands. **Publishing the source is planned for launch, not done
+yet.** Right now this page, the license and the security policy are the whole
+repo; there's no client code to read here today. Watch or star the repo if you'd
+like to know the moment that changes.
 
-Because "trust us, it's encrypted" isn't good enough. Once this repo is live, you'll be
-able to read the actual cryptography and verify for yourself that the client does
-exactly what we say it does — the same standard we hold the
-[desktop client](https://github.com/Cipherline-chat/cipherline-desktop) to.
+## What will be here at launch
+
+- The full mobile client source
+- Build instructions — clone, install, run, no account required to inspect the code
+- The same cryptography the desktop client uses, so you can verify it yourself:
+  X25519 key exchange, HKDF-SHA256 derivation, AES-256-GCM for content, Ed25519
+  signatures, and one-time prekeys for forward secrecy — the same standard we hold
+  the [desktop client](https://github.com/Cipherline-chat/cipherline-desktop) to
+- Third-party dependency attributions under the Apache-2.0 license
+
+## Why the client and not the server
+
+Because "trust us, it's encrypted" isn't good enough — a claim like that should be
+checkable. The client is what touches your messages, keys and calls, so it's what
+we're publishing. The server stays closed: it's a blind relay that never holds the
+keys to your content either way, and keeping its code private mainly slows abuse
+rather than hiding anything it could read.
 
 ## In the meantime
 
-- **[cipherline.chat](https://cipherline.chat)** — the full site, including a deep-dive
-  on the security model and how the encryption actually works.
-- **[cipherline-desktop](https://github.com/Cipherline-chat/cipherline-desktop)** — the
-  desktop client's repo, same warming-up status as this one.
-- Star this repo if you'd like to know when the code lands.
+- **[cipherline.chat/opensource](https://cipherline.chat/opensource)** — the
+  current status of this plan, in more detail, with a link to this repo and the
+  desktop one.
+- **[cipherline.chat/security](https://cipherline.chat/security)** — what each
+  client encrypts today and what our server can still see.
+- **[cipherline-desktop](https://github.com/Cipherline-chat/cipherline-desktop)** —
+  the flagship desktop client's repo, same status as this one.
 
 ---
 
