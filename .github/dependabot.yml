@@ -1,0 +1,11 @@
+# Dependabot for the public mobile repo. There is no app source (and so no npm manifest) here yet; this keeps the
+# pinned GitHub Actions current. Add an npm entry when the source is published.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ['*']
