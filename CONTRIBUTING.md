@@ -1,6 +1,6 @@
 # Contributing to Cipherline Mobile
 
-Thanks for your interest. The mobile app is in **closed beta on Android**, and its source
+Thanks for your interest. The mobile app is in **closed beta on Android and iPhone**, and its source
 isn't published in this repo yet (see the [README](README.md)). So for now there's no code
 here to change, but you can still help.
 
@@ -13,7 +13,7 @@ See [SECURITY.md](SECURITY.md).
 ## What you can do today
 
 - **Beta testers:** report bugs with the bug report template. Include the app version, your
-  phone model and Android version, and the steps that cause it. Please don't include message
+  phone model and Android or iOS version, and the steps that cause it. Please don't include message
   content, keys, tokens or other people's usernames.
 - **Everyone:** suggest features with the feature request template.
 - **Want to read the crypto?** The desktop client, which uses the same cryptography, is

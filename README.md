@@ -25,10 +25,10 @@ without being able to read them. It still has to see some things to deliver them
 (who you're connected with, when, and how big a file is); the full, honest list is
 at [cipherline.chat/security](https://cipherline.chat/security).
 
-## Status: closed beta, Android, and this repo is public before the source is
+## Status: closed beta on Android and iPhone, and this repo is public before the source is
 
-The Cipherline **mobile app** is currently in **closed beta on Android only** —
-there's no public release and no iOS build yet. This repo — Apache-2.0 licensed —
+The Cipherline **mobile app** is currently in **closed beta on Android and iPhone** —
+there's no public release yet. This repo — Apache-2.0 licensed —
 is where its source lands. **Publishing the source is planned for launch, not done
 yet.** Right now this repo holds only its README, license and policies;
 there's no client code to read here today. Watch or star the repo if you'd

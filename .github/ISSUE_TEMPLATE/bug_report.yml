@@ -33,8 +33,8 @@ body:
   - type: input
     id: device
     attributes:
-      label: Phone and Android version
-      placeholder: e.g. Pixel 8, Android 16
+      label: Phone and OS version
+      placeholder: e.g. Pixel 8, Android 16 — or iPhone 16, iOS 26
     validations:
       required: true
   - type: textarea
