@@ -27,8 +27,8 @@ at [cipherline.chat/security](https://cipherline.chat/security).
 The Cipherline **mobile app** is currently in **closed beta on Android only** —
 there's no public release and no iOS build yet. This repo — Apache-2.0 licensed —
 is where its source lands. **Publishing the source is planned for launch, not done
-yet.** Right now this page, the license and the security policy are the whole
-repo; there's no client code to read here today. Watch or star the repo if you'd
+yet.** Right now this repo holds only its README, license and policies;
+there's no client code to read here today. Watch or star the repo if you'd
 like to know the moment that changes.
 
 ## What will be here at launch
@@ -51,13 +51,15 @@ rather than hiding anything it could read.
 
 ## In the meantime
 
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — how beta testers can report bugs and
+  suggest features while the source isn't here yet.
 - **[cipherline.chat/opensource](https://cipherline.chat/opensource)** — the
   current status of this plan, in more detail, with a link to this repo and the
   desktop one.
 - **[cipherline.chat/security](https://cipherline.chat/security)** — what each
   client encrypts today and what our server can still see.
 - **[cipherline-desktop](https://github.com/Cipherline-chat/cipherline-desktop)** —
-  the flagship desktop client's repo, same status as this one.
+  the flagship desktop client's repo; its full source is published there.
 
 ---
 
