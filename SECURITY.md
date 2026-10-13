@@ -5,6 +5,7 @@ you've found a security issue with the live Cipherline service in the meantime, 
 still want to hear about it.
 
 **Please report privately to [security@cipherline.chat](mailto:security@cipherline.chat).**
+We acknowledge your report within **48 hours** and give an initial assessment within **5 business days**.
 Do not open a public issue for a security vulnerability.
 
 See [cipherline.chat/security-disclosure](https://cipherline.chat/security-disclosure)
